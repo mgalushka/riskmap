@@ -6,7 +6,7 @@ package com.riskmap.http;
  * @author Maxim Galushka
  * @since 07/09/2011
  */
-public interface HttpCallbackHandler <T> {
+public interface HttpCallbackHandler<T> {
 
     public T process(String content) throws Exception;
 }

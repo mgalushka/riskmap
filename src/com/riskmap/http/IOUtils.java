@@ -11,7 +11,7 @@ import java.io.*;
 public final class IOUtils {
 
     /**
-     * @param is input stream
+     * @param is       input stream
      * @param encoding file encoding
      * @return String with file content
      * @throws IOException if

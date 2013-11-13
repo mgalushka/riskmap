@@ -19,7 +19,7 @@ import java.io.OutputStream;
  * @author Maxim Galushka
  * @since 07/09/2011
  */
-public class HttpHelper <T>{
+public class HttpHelper<T> {
 
     private static final Logger log = Logger.getLogger(HttpHelper.class);
 

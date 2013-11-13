@@ -4,12 +4,37 @@ import com.riskmap.http.HttpCallbackHandler
 import com.riskmap.http.HttpHelper
 import org.apache.http.HttpHost
 import org.apache.http.impl.client.DefaultHttpClient
+import org.htmlparser.Parser
+import org.htmlparser.filters.AndFilter
+import org.htmlparser.filters.HasAttributeFilter
+import org.htmlparser.filters.TagNameFilter
+import org.htmlparser.tags.LinkTag
 
 /**
  * <p></p>
  * @author Maxim Galushka
  * @since 11/13/13
  */
+
+def parse_number_of_pages = { String html ->
+    try {
+        List<String> result = new ArrayList<String>();
+        def parser = new Parser(html).parse(
+                new AndFilter(
+                        new TagNameFilter("a"),
+                        new HasAttributeFilter("class", "pagebar_page")
+                )
+        );
+
+        org.htmlparser.Node[] nodes = parser.toNodeArray();
+        if (nodes.length > 2) {
+            def link = (LinkTag) nodes[nodes.length - 3]
+            return Integer.parseInt(link.getText())
+        }
+    } catch (Exception e) {
+        return 1;
+    }
+}
 
 def VROZYSKE_HOSTNAME = "http://vrozyske.org"
 def people = []
@@ -23,15 +48,24 @@ def people = []
         println "Processing letter ${L}";
 
         def httpClient = new DefaultHttpClient();
+        def hs = new HttpHelper<String>(httpClient);
         def h = new HttpHelper<Person>(httpClient);
 
-        List<String> urls = new ArrayList<String>();
+        // find all a class="pagebar_page" - number of pages
+        def firstPageUrl = "/catalog/${year}/find-first/${letterEncoded}";
+        def N = hs.get(firstPageUrl,
+                new HttpHost(VROZYSKE_HOSTNAME),
+                new HttpCallbackHandler<String>() {
+                    @Override
+                    public String process(String content) throws Exception {
+                        return parse_number_of_pages(content);
+                    }
+                }, "windows-1251");
 
-        // find all span class="pagebar_title" - number of pages
-        def N = 1;
+
 
         // for all pages
-        for (def page = 1; page <= N; page++) {
+        for (def page = 1; page <= 0; page++) {
             def letterEncoded = URLEncoder.encode(L + "", "UTF-8");
             def url = "/catalog/${year}-${page}/find-first/${letterEncoded}";
             println("Processing URL: ${url}");
