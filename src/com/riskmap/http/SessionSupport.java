@@ -23,33 +23,19 @@ import java.util.List;
  * @author Maxim Galushka
  * @since 07/09/2011
  */
-public abstract class SessionSupport {
-
-    // Abstract session ID (PHP or else)
-    private String sessionId;
+public class SessionSupport {
 
     protected HttpHost targetHost;
 
-    protected SessionSupport() {
-    }
-
-    protected SessionSupport(HttpHost targetHost) {
+    public SessionSupport(HttpHost targetHost) {
         this.targetHost = targetHost;
     }
 
-    protected String getSessionId() {
-        return sessionId;
-    }
-
-    protected void setSessionId(String sessionId) {
-        this.sessionId = sessionId;
-    }
-
-    protected DefaultHttpClient buildProxiedClient() throws IOException {
+    public DefaultHttpClient buildProxiedClient() throws IOException {
         DefaultHttpClient httpclient = new DefaultHttpClient();
-        List<String> authPreferences = new ArrayList<String>();
-        authPreferences.add(AuthPolicy.NTLM);
-        authPreferences.add(AuthPolicy.SPNEGO);
+        List<String> authPreferences = new ArrayList<>();
+        //authPreferences.add(AuthPolicy.NTLM);
+//        authPreferences.add(AuthPolicy.SPNEGO);
         httpclient.getParams().setParameter(AuthPNames.PROXY_AUTH_PREF, authPreferences);
 
         HttpHost proxy = new HttpHost("localhost", 4545);
@@ -58,25 +44,4 @@ public abstract class SessionSupport {
         return httpclient;
     }
 
-    protected abstract void buildBasicCookies(DefaultHttpClient httpclient);
-
-    protected abstract DefaultHttpClient buildSessionClient(DefaultHttpClient client) throws IOException;
-
-    /**
-     * @return each call will return new session client linked to new HTTP session
-     * @throws IOException is any
-     */
-    public DefaultHttpClient getNewSessionClient() throws IOException {
-        DefaultHttpClient httpclient = buildProxiedClient();
-        return buildSessionClient(httpclient);
-    }
-
-    public DefaultHttpClient relogin() throws IOException {
-        setSessionId(null);
-        return getNewSessionClient();
-    }
-
-    public HttpHost getTargetHost() {
-        return targetHost;
-    }
 }

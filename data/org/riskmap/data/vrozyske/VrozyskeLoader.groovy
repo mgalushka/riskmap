@@ -2,13 +2,20 @@ package org.riskmap.data.vrozyske
 
 import com.riskmap.http.HttpCallbackHandler
 import com.riskmap.http.HttpHelper
+import com.riskmap.http.SessionSupport
 import org.apache.http.HttpHost
-import org.apache.http.impl.client.DefaultHttpClient
 import org.htmlparser.Parser
 import org.htmlparser.filters.AndFilter
 import org.htmlparser.filters.HasAttributeFilter
 import org.htmlparser.filters.TagNameFilter
 import org.htmlparser.tags.LinkTag
+
+import org.apache.log4j.Level
+import org.apache.log4j.Logger
+
+def log = Logger.getLogger(getClass())
+
+Logger.rootLogger.level = Level.WARN
 
 /**
  * <p></p>
@@ -36,7 +43,12 @@ def parse_number_of_pages = { String html ->
     }
 }
 
-def VROZYSKE_HOSTNAME = "http://vrozyske.org"
+def VROZYSKE_HOSTNAME = "vrozyske.org"
+def HOST = new HttpHost(VROZYSKE_HOSTNAME)
+def session = new SessionSupport(HOST);
+def httpClient = session.buildProxiedClient();
+
+// list of people parsed
 def people = []
 
 // for all years codes
@@ -47,14 +59,13 @@ def people = []
     (0x0410..0x042F).collect { t -> Character.toChars(t) }.each { L ->
         println "Processing letter ${L}";
 
-        def httpClient = new DefaultHttpClient();
         def hs = new HttpHelper<String>(httpClient);
         def h = new HttpHelper<Person>(httpClient);
 
         // find all a class="pagebar_page" - number of pages
+        def letterEncoded = URLEncoder.encode(L.toString(), "windows-1251")
         def firstPageUrl = "/catalog/${year}/find-first/${letterEncoded}";
-        def N = hs.get(firstPageUrl,
-                new HttpHost(VROZYSKE_HOSTNAME),
+        def N = hs.get(firstPageUrl, HOST,
                 new HttpCallbackHandler<String>() {
                     @Override
                     public String process(String content) throws Exception {
@@ -62,16 +73,12 @@ def people = []
                     }
                 }, "windows-1251");
 
-
-
         // for all pages
         for (def page = 1; page <= 0; page++) {
-            def letterEncoded = URLEncoder.encode(L + "", "UTF-8");
             def url = "/catalog/${year}-${page}/find-first/${letterEncoded}";
             println("Processing URL: ${url}");
 
-            def person = h.get(url,
-                    new HttpHost(VROZYSKE_HOSTNAME),
+            def person = h.get(url, HOST,
                     new HttpCallbackHandler<Person>() {
                         @Override
                         public Person process(String content) throws Exception {
