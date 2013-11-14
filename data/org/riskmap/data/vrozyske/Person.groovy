@@ -1,5 +1,7 @@
 package org.riskmap.data.vrozyske
 
+import java.text.SimpleDateFormat
+
 /**
  * <p></p>
  * @author Maxim Galushka
@@ -17,24 +19,26 @@ class Person {
     def whenLost;
     def police;
 
+    def SDF = new SimpleDateFormat("dd-MM-yyyy")
+
     @Override
     public String toString() {
         return "Person{" +
                 "name=" + name +
-                ", birthday=" + birthday +
+                ", birthday=" + SDF.format(birthday) +
                 ", leavingPlace=" + leavingPlace +
                 ", reason=" + reason +
-                ", whenLost=" + whenLost +
+                ", whenLost=" + SDF.format(whenLost) +
                 ", police=" + police +
                 '}';
     }
 
     public String toCsv() {
         return name +
-                "," + birthday +
+                "," + SDF.format(birthday) +
                 "," + leavingPlace +
                 "," + reason +
-                "," + whenLost +
+                "," + SDF.format(whenLost) +
                 "," + police;
     }
 }
