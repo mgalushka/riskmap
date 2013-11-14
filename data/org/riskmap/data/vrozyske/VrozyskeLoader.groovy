@@ -1,13 +1,12 @@
 package org.riskmap.data.vrozyske
 
-import com.riskmap.http.HttpCallbackHandler
-import com.riskmap.http.HttpHelper
-import com.riskmap.http.SessionSupport
+import org.riskmap.http.HttpCallbackHandler
+import org.riskmap.http.HttpHelper
+import org.riskmap.http.SessionSupport
 import org.apache.http.HttpHost
 import org.htmlparser.Parser
 import org.htmlparser.filters.AndFilter
 import org.htmlparser.filters.HasAttributeFilter
-import org.htmlparser.filters.StringFilter
 import org.htmlparser.filters.TagNameFilter
 import org.htmlparser.tags.Bullet
 import org.htmlparser.tags.LinkTag

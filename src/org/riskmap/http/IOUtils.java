@@ -1,4 +1,4 @@
-package com.riskmap.http;
+package org.riskmap.http;
 
 import java.io.*;
 

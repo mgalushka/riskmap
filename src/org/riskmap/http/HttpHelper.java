@@ -1,4 +1,4 @@
-package com.riskmap.http;
+package org.riskmap.http;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpHost;

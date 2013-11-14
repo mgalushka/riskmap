@@ -1,4 +1,4 @@
-package com.riskmap.http;
+package org.riskmap.http;
 
 /**
  * <p>Used to process HTML page - usually for parsing desired results to domain objects</p>
