@@ -27,6 +27,11 @@ Logger.rootLogger.level = Level.WARN
  * @since 11/13/13
  */
 
+def OUT = new PrintWriter("D:\\projects\\riskmap\\vrozyske.csv")
+OUT.println("name,birthday,leavingPlace,reason,whenLost,police")
+
+def TERR = new PrintWriter("D:\\projects\\riskmap\\vrozyske-territories.csv")
+
 def parse_number_of_pages = { String html ->
     try {
         def parser = new Parser(html).parse(
@@ -39,9 +44,10 @@ def parse_number_of_pages = { String html ->
         org.htmlparser.Node[] nodes = parser.toNodeArray();
         if (nodes.length > 2) {
             def link = (LinkTag) nodes[nodes.length - 3]
-            return Integer.parseInt(link.getText())
+            return Integer.parseInt(link.getFirstChild().getText())
         }
     } catch (Exception e) {
+        e.printStackTrace()
     }
     return 1;
 }
@@ -73,6 +79,7 @@ def parse_person_urls = { String html ->
             }
         }
     } catch (Exception e) {
+        e.printStackTrace()
     }
     return links;
 }
@@ -82,6 +89,7 @@ def ALL_TAGS = [] as TreeSet<String>
 def SDF = new SimpleDateFormat("MM/dd/yyyy")
 def parse_person_details = { String html ->
     def person = new Person();
+    def stopped = false
     try {
         def nameParser = new Parser(html).parse(
                 new AndFilter(
@@ -108,7 +116,6 @@ def parse_person_details = { String html ->
         def district_where_lost = null;
         def city_where_lost = null;
 
-        def country_where_born = null;
         def region_where_born = null;
         def city_where_born = null;
         def district_where_born = null;
@@ -133,33 +140,61 @@ def parse_person_details = { String html ->
                         // reason
                         if (code.toLowerCase().contains("причина розыска")) person.reason = value
 
+                        // born place
+                        if (code.toLowerCase().contains("нас пункт рожд")) city_where_born = value
+                        if (code.toLowerCase().contains("область рождения")) region_where_born = value
+                        if (code.toLowerCase().contains("район жительства")) district_where_lost = value
+
                         // leaving place
                         if (code.toLowerCase().contains("нас пункт прож")) city_where_lost = value
                         if (code.toLowerCase().contains("область жительства")) region_where_lost = value
-                        if (code.toLowerCase().contains("район жительства")) district_where_lost = value
+
+                        if (code.toLowerCase().contains("пропал на территории")) person.leavingPlace = value
 
                         // dates
                         if (code.toLowerCase().contains("дата объявления в розыск")) person.whenLost = SDF.parse(value)
+                        if (code.toLowerCase().contains("объявлен в розыск (дата)")) person.whenLost = SDF.parse(value)
+                        if (code.toLowerCase().contains("объявлен в розыск")) person.whenLost = SDF.parse(value)
+                        if (code.toLowerCase().contains("дата пропажи")) person.whenLost = SDF.parse(value)
+
+                        if (code.toLowerCase().contains("пропал без вести")) person.whenLost = SDF.parse(value)
+                        if (code.toLowerCase().contains("пропал без вести (дата)")) person.whenLost = SDF.parse(value)
+
                         if (code.toLowerCase().contains("дата рождения")) person.birthday = SDF.parse(value)
 
                         // TODO: log all police names here...
                         if (code.toLowerCase().contains("орган-инициатор")) person.police = value
+                        if (code.toLowerCase().contains("орган")) person.police = value
+
+                        if (code.toLowerCase().contains("розыск прекращен (дата)") ||
+                                code.toLowerCase().contains("Прекращение розыска") ||
+                                code.toLowerCase().contains("Причина прекращения")){
+                            stopped = true
+                        }
+
+                        if(code.toLowerCase().contains("пропал на территории")) {
+                            TERR.println("${code} - ${value}")
+                        }
+
                     }
                 }
             }
         }
 
-        if(city_where_lost != null) person.leavingPlace = city_where_lost
-        else {
-            if(region_where_lost != null) person.leavingPlace = region_where_lost
-            else{
-                if(district_where_lost != null) person.leavingPlace = district_where_lost
+        if (person.leavingPlace == null) {
+            if (city_where_lost != null) person.leavingPlace = city_where_lost
+            else {
+                if (region_where_lost != null) person.leavingPlace = region_where_lost
+                else {
+                    if (district_where_lost != null) person.leavingPlace = district_where_lost
+                }
             }
         }
 
     } catch (Exception e) {
+        e.printStackTrace()
     }
-    return person;
+    return stopped ? null : person;
 }
 
 
@@ -227,9 +262,21 @@ def people = []
                             return parse_person_details(content);
                         }
                     }, "windows-1251");
-            people << personDetails
+
+            // not include stop search
+            if(personDetails != null){
+                personDetails.url = url;
+                people << personDetails
+                OUT.println(personDetails.toCsv())
+            }
         }
     }
 }
 
+println(people)
 println ALL_TAGS
+OUT.flush()
+OUT.close()
+
+TERR.flush()
+TERR.close()

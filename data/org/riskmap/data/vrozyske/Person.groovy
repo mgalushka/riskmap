@@ -7,10 +7,12 @@ package org.riskmap.data.vrozyske
  */
 class Person {
 
+    def url;
     def name;
     def birthday;
+
+    // place where lost
     def leavingPlace;
-    def whereLost;
     def reason;
     def whenLost;
     def police;
@@ -21,10 +23,18 @@ class Person {
                 "name=" + name +
                 ", birthday=" + birthday +
                 ", leavingPlace=" + leavingPlace +
-                ", whereLost=" + whereLost +
                 ", reason=" + reason +
                 ", whenLost=" + whenLost +
                 ", police=" + police +
                 '}';
+    }
+
+    public String toCsv() {
+        return name +
+                "," + birthday +
+                "," + leavingPlace +
+                "," + reason +
+                "," + whenLost +
+                "," + police;
     }
 }
