@@ -13,6 +13,7 @@ class Person {
     def whereLost;
     def reason;
     def whenLost;
+    def police;
 
     @Override
     public String toString() {
@@ -23,6 +24,7 @@ class Person {
                 ", whereLost=" + whereLost +
                 ", reason=" + reason +
                 ", whenLost=" + whenLost +
+                ", police=" + police +
                 '}';
     }
 }
