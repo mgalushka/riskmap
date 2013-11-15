@@ -9,18 +9,25 @@ ChairmenName
 ImportDateBegin	
 ImportDateEnd	
 Liga	false
+// number of pages on a screen
 PagingInfo.ItemsPerPage	100
 RegDateBegin	
 RegDateEnd	
 RegNumber	
+// search for
 SearchExpression	ст. 149 КК
 Sort	0
 UserCourtCode	
+// Вирок only
 VRType[]	1
 
 encoded:
 SearchExpression=%D1%81%D1%82.+149+%D0%9A%D0%9A&UserCourtCode=&ChairmenName=&RegNumber=&RegDateBegin=&RegDateEnd=&VRType%5B%5D=1&CaseNumber=&ImportDateBegin=&ImportDateEnd=&Sort=0&PagingInfo.ItemsPerPage=100&Liga=false
 ===========================================================
-Next page:
+Next page (use session):
 http://www.reyestr.court.gov.ua/Page/2
+
+ASP.NET_SessionId=jdtfhb1dg40vx1lmkn4n3n1z; path=/; HttpOnly
+
+ASP.NET_SessionId=aniuwbotjkybvipbmu11e3ma
 ===========================================================

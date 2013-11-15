@@ -5,6 +5,7 @@ import org.apache.http.HttpHost;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
 import org.apache.log4j.Logger;
 
 import java.io.File;
@@ -27,6 +28,22 @@ public class HttpHelper<T> {
 
     public HttpHelper(HttpClient httpClient) {
         this.httpClient = httpClient;
+    }
+
+    public T post(String url, HttpEntity postEntity, HttpHost host, HttpCallbackHandler<T> callback, String encoding)
+            throws Exception {
+
+        log.debug(String.format("Prepare to execute post request: [%s]", url));
+        HttpPost post = new HttpPost(url);
+        post.setEntity(postEntity);
+
+        HttpResponse response = httpClient.execute(host, post);
+        HttpEntity entity = response.getEntity();
+
+        String content = IOUtils.convertStreamToString(entity.getContent(), encoding);
+        log.trace(String.format("Retrieved content: %s", content));
+
+        return callback.process(content);
     }
 
     public T get(String url, HttpHost host, HttpCallbackHandler<T> callback, String encoding)
