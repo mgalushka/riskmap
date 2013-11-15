@@ -3,4 +3,11 @@ Story
 Search on full database of court decision in Ukraine and retrieve those related to:
 ст. 149 КК
 
+Looking in HTML:
+Кримінальні справи; Злочини проти волі, честі та гідності особи (усього), з них; Торгівля людьми або інша незаконна угода щодо людини.
+
+Злочини проти волі
+OR
+Торгівля людьми
+
 which is human trafficking
