@@ -30,6 +30,8 @@ import java.util.List;
  */
 public class SessionSupport {
 
+    private static final boolean proxyRequired = false;
+
     protected HttpHost targetHost;
     protected String sessionId;
 
@@ -37,8 +39,8 @@ public class SessionSupport {
         this.targetHost = targetHost;
     }
 
-    public void initCookie(DefaultHttpClient httpClient){
-        if(sessionId != null){
+    public void initCookie(DefaultHttpClient httpClient) {
+        if (sessionId != null) {
             BasicClientCookie sessionCookie = new BasicClientCookie("ASP.NET_SessionId", sessionId);
             sessionCookie.setPath("/");
 
@@ -48,23 +50,27 @@ public class SessionSupport {
 
     public DefaultHttpClient buildProxiedClient() throws IOException {
         DefaultHttpClient httpClient = new DefaultHttpClient();
-        List<String> authPreferences = new ArrayList<>();
-        httpClient.getParams().setParameter(AuthPNames.PROXY_AUTH_PREF, authPreferences);
 
-        HttpHost proxy = new HttpHost("localhost", 4545);
-        httpClient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, proxy);
+        if (proxyRequired) {
+            // TODO: hard-code proxy details
+            List<String> authPreferences = new ArrayList<>();
+            httpClient.getParams().setParameter(AuthPNames.PROXY_AUTH_PREF, authPreferences);
+
+            HttpHost proxy = new HttpHost("localhost", 4545);
+            httpClient.getParams().setParameter(ConnRoutePNames.DEFAULT_PROXY, proxy);
+        }
 
         // building session
         HttpGet get = new HttpGet("/");
         HttpResponse response = httpClient.execute(targetHost, get);
         HttpEntity entity = response.getEntity();
 
-        // hard-coded
-        String content = IOUtils.convertStreamToString(entity.getContent(), "UTF-8");
+        // TODO: hard-coded encoding
+        IOUtils.convertStreamToString(entity.getContent(), "UTF-8");
 
         List<Cookie> lc = httpClient.getCookieStore().getCookies();
         for (Cookie cookie : lc) {
-            if("ASP.NET_SessionId".equals(cookie.getName())){
+            if ("ASP.NET_SessionId".equals(cookie.getName())) {
                 sessionId = cookie.getValue();
             }
         }
