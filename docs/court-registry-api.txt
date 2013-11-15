@@ -1,0 +1,26 @@
+===========================================================
+Find all relevant cases:
+
+POST:
+http://www.reyestr.court.gov.ua/
+
+CaseNumber	
+ChairmenName	
+ImportDateBegin	
+ImportDateEnd	
+Liga	false
+PagingInfo.ItemsPerPage	100
+RegDateBegin	
+RegDateEnd	
+RegNumber	
+SearchExpression	ñò. 149 ÊÊ
+Sort	0
+UserCourtCode	
+VRType[]	1
+
+encoded:
+SearchExpression=%D1%81%D1%82.+149+%D0%9A%D0%9A&UserCourtCode=&ChairmenName=&RegNumber=&RegDateBegin=&RegDateEnd=&VRType%5B%5D=1&CaseNumber=&ImportDateBegin=&ImportDateEnd=&Sort=0&PagingInfo.ItemsPerPage=100&Liga=false
+===========================================================
+Next page:
+http://www.reyestr.court.gov.ua/Page/2
+===========================================================
