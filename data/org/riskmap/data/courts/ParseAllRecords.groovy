@@ -30,11 +30,10 @@ def F = { String text ->
     return text.trim()
 }
 
-def counter = 1
 files.each { file ->
-    println "Processing ${counter} file"
+    println "Processing [${file}] file"
 
-    def html = IOUtils.convertStreamToString(new FileInputStream(FROM_DIR + "out_${counter}.html"), "UTF-8")
+    def html = IOUtils.convertStreamToString(new FileInputStream(file), "UTF-8")
     def recordTable = new Parser(html).parse(
             new AndFilter(
                     new TagNameFilter("div"),
@@ -64,11 +63,10 @@ files.each { file ->
 
         records << r
     }
-
 }
 
 
-def OUT = new PrintWriter("D:\\projects\\riskmap\\docs\\court\\records.csv")
+def OUT = new PrintWriter("D:\\projects\\riskmap\\docs\\court\\records.csv", "windows-1251")
 
 // header
 OUT.println("id,url,type,date,form,reference,court,judge")
