@@ -18,10 +18,15 @@ import java.text.SimpleDateFormat
  */
 
 
-def FROM_DIR = "D:\\projects\\riskmap\\docs\\court\\"
+def FROM_DIR = "D:\\projects\\riskmap\\docs\\courts-trafficking\\"
 
 def records = []
-def files = new File(FROM_DIR).listFiles()
+def files = new File(FROM_DIR).listFiles(new FilenameFilter() {
+    @Override
+    boolean accept(File dir, String name) {
+        return name.endsWith(".html")
+    }
+})
 def SDF = new SimpleDateFormat("dd.MM.yyyy")
 
 // format function
@@ -66,7 +71,7 @@ files.each { file ->
 }
 
 
-def OUT = new PrintWriter("D:\\projects\\riskmap\\docs\\court\\records.csv", "windows-1251")
+def OUT = new PrintWriter("${FROM_DIR}\\records.csv", "windows-1251")
 
 // header
 OUT.println("id,url,type,date,form,reference,court,judge")

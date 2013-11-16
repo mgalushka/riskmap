@@ -35,7 +35,7 @@ parameters.add(new BasicNameValuePair("RegDateBegin", ""));
 parameters.add(new BasicNameValuePair("RegDateEnd", ""));
 parameters.add(new BasicNameValuePair("RegNumber", ""));
 parameters.add(new BasicNameValuePair("RegDateEnd", ""));
-parameters.add(new BasicNameValuePair("SearchExpression", "ст. 149 КК"));
+parameters.add(new BasicNameValuePair("SearchExpression", "Торгівля людьми"));
 parameters.add(new BasicNameValuePair("Sort", "0"));
 parameters.add(new BasicNameValuePair("UserCourtCode", ""));
 parameters.add(new BasicNameValuePair("VRType[]", "1"));
@@ -53,15 +53,17 @@ def html1 = h.post(firstPageUrl, postEnty, HOST, new HttpCallbackHandler<String>
     }
 }, "UTF-8")
 
+def ROOT = "D:\\projects\\riskmap\\docs\\courts-trafficking"
+
 // dump to file
-def O1 = new PrintWriter("D:\\projects\\riskmap\\docs\\court\\out_1.html")
+def O1 = new PrintWriter("${ROOT}\\out_1.html")
 O1.println(html1)
 O1.flush()
 O1.close()
 
 Thread.sleep(1000)
 
-for (def i = 2; i <= 8; i++) {
+for (def i = 2; i <= 2; i++) {
     println "requesting ${i} page"
     session.initCookie(httpClient);
     def html = h.get("/Page/${i}", HOST, new HttpCallbackHandler<String>() {
@@ -72,10 +74,10 @@ for (def i = 2; i <= 8; i++) {
     }, "UTF-8")
 
     // dump to file
-    def O = new PrintWriter("D:\\projects\\riskmap\\docs\\court\\out_${i}.html")
+    def O = new PrintWriter("${ROOT}\\out_${i}.html")
     O.println(html)
     O.flush()
     O.close()
 
-    Thread.sleep(1000)
+    Thread.sleep(2000)
 }
