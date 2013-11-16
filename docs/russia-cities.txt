@@ -1,0 +1,875 @@
+Abakan,53°40'N,91°10'E
+Abaza,52°39'N,90°06'E
+Achinsk,56°20'N,90°20'E
+Adygea,45°00'N,40°00'E
+Aginskoye ,51°06'N,114°32'E
+Aim,59°00'N,133°55'E
+Alakurtti ,67°00'N,30°30'E
+Alania/North Ossetia,43°30'N,44°30'E
+Alapayevsk,57°52'N,61°42'E
+Alatyr,54°55'N,46°35'E
+Aldan,58°40'N,125°30'E
+Aldan,63°28'N,129°35'E
+Aleisk,52°40'N,83°00'E
+Aleksandrov Gay,50°09'N,48°34'E
+Aleksandrovsk-sakhalinskiy,50°50'N,142°20'E
+Ambarchik,69°40'N,162°20'E
+Amderma,69°45'N,61°30'E
+Amga,60°50'N,132°00'E
+Amga,62°38'N,134°32'E
+Amgu,45°45'N,137°15'E
+Amgun,52°56'N,139°38'E
+Amur,52°56'N,141°10'E
+Amursk,50°14'N,136°54'E
+Anabar,73°08'N,113°36'E
+Anadyr,64°35'N,177°20'E
+Anadyr,64°55'N,176°05'E
+Anadyrskiy Zaliv,64°00'N,180°00'E
+Andropov/Rybinsk,58°05'N,38°50'E
+Angara,58°05'N,94°20'E
+Angarsk,52°30'N,104°00'E
+Anzhero-sudzhensk,56°10'N,86°00'E
+Apatity,67°34'N,33°22'E
+Archangel/Arkhangelsk,64°38'N,40°36'E
+Argun,53°20'N,121°28'E
+Ariadnoye,45°08'N,134°25'E
+Arka,60°15'N,142°00'E
+Arkhangelsk,64°38'N,40°36'E
+Arkticheskiy, Mys,81°10'N,95°00'E
+Armavir,45°02'N,41°07'E
+Arsenev,44°10'N,133°15'E
+Artem,43°22'N,132°13'E
+Artemovsk,54°45'N,93°35'E
+Arzamas,55°27'N,43°55'E
+Asha,55°00'N,57°16'E
+Asino,57°00'N,86°00'E
+Astrakhan,46°25'N,48°05'E
+Atka,60°50'N,151°48'E
+Ayan,56°30'N,138°16'E
+Aykino,62°15'N,49°56'E
+Ayon, Ostrov,69°50'N,169°00'E
+Azov,47°03'N,39°25'E
+Bachelina,57°45'N,67°20'E
+Bagdarin,54°26'N,113°36'E
+Bagrationovsk,54°23'N,20°39'E
+Baikal, L./Baykal, Oz., ,53°00'N,108°00'E
+Balakovo,52°04'N,47°55'E
+Balashov,51°30'N,43°10'E
+Baltiysk ,54°41'N,19°58'E
+Barguzin,53°37'N,109°37'E
+Barnaul,53°20'N,83°40'E
+Bashkir Republic/Bashkortostan,54°00'N,57°00'E
+Bashkortostan,54°00'N,57°00'E
+Batagai,67°38'N,134°38'E
+Batnamay ,63°30'N,129°15'E
+Baykal, Oz.,53°00'N,108°00'E
+Baymak,52°36'N,58°19'E
+Belayya,54°40'N,56°00'E
+Belebey,54°07'N,54°07'E
+Belev,53°50'N,36°05'E
+Belgorod,50°35'N,36°35'E
+Belkovskiy, Ostrov,75°32'N,135°44'E
+Belogorsk,51°00'N,128°20'E
+Belomorsk,64°35'N,34°54'E
+Belorestsk,53°58'N,58°24'E
+Belovo,54°30'N,86°00'E
+Beloye, Ozero,60°10'N,37°35'E
+Beloye More,66°30'N,38°00'E
+Belozersk,60°01'N,37°45'E
+Belukha,49°50'N,86°50'E
+Belyy Ostrov,73°30'N,71°00'E
+Belyy Yar,58°26'N,84°39'E
+Bennetta, Ostrov,76°21'N,148°56'E
+Berdsk,54°47'N,83°02'E
+Bereznik,62°51'N,42°40'E
+Berezniki,59°24'N,56°46'E
+Berezovo,64°00'N,65°00'E
+Berigovskiy,63°03'N,179°19'E
+Bikin,46°50'N,134°20'E
+Bikin,46°51'N,134°02'E
+Bilibino,68°03'N,166°20'E
+Birobidzhan,48°50'N,132°50'E
+Birsk,55°25'N,55°30'E
+Biyask,52°40'N,85°00'E
+Blagodarnoye/Blagodarnyy,45°07'N,43°37'E
+Blagodarnyy,45°07'N,43°37'E
+Blagoveshchensk,50°20'N,127°30'E
+Bodaybo,57°50'N,114°00'E
+Bogotol,56°15'N,89°50'E
+Boguchany,58°40'N,97°30'E
+Bologoye,57°55'N,34°05'E
+Bolshevik, Ostrov,78°30'N,102°00'E
+Bolshoy Anyuy,68°30'N,160°49'E
+Bolshoy Begichev, Ostrove,74°20'N,112°30'E
+Bolshoy Lyakhovskiy, Ostrov,73°35'N,142°00'E
+Bolshoy Tyuters, Ostrov,59°51'N,27°13'E
+Borisoglebsk,51°27'N,42°05'E
+Borogontsy,62°42'N,131°08'E
+Borovichi,58°25'N,33°55'E
+Borzya,50°24'N,116°31'E
+Bratsk,56°10'N,101°30'E
+Brezhnev/Naberezhnyye Chelny,55°42'N,52°19'E
+Bryansk,53°13'N,34°25'E
+Budennovsk,44°50'N,44°10'E
+Bugulma,54°33'N,52°48'E
+Buguruslan,53°39'N,52°26'E
+Bukachacha,52°55'N,116°50'E
+Bulgar,54°57'N,49°04'E
+Bulun,70°37'N,127°30'E
+Buorkhaya, Mys,71°50'N,132°40'E
+Bureya,49°27'N,129°30'E
+Buryatia,53°00'N,110°00'E
+Buturlinovka,50°50'N,40°35'E
+Buy,58°28'N,41°28'E
+Buzuluk,52°48'N,52°12'E
+Byrranga, Gory,75°00'N,100°00'E
+Byrranga Mts./Byrranga, Gory,75°00'N,100°00'E
+Central Siberian Plateau,65°00'N,105°00'E
+Chadan,51°17'N,91°35'E
+Chagda,58°45'N,130°38'E
+Chapayevsk,53°00'N,49°40'E
+Chara,56°54'N,118°20'E
+Chaykovskiy,56°47'N,54°09'E
+Cheboksary,56°08'N,47°12'E
+Chechenia,43°30'N,45°29'E
+Checheno-Ingush Republic/Chechenia,43°30'N,45°29'E
+Chechnya/Chechenia,43°30'N,45°29'E
+Chegdomyn,51°07'N,133°01'E
+Chelyabinsk,55°10'N,61°24'E
+Chelyuskin, C.,77°30'N,103°00'E
+Chen, Gora,65°16'N,141°50'E
+Cherdyn,60°24'N,56°29'E
+Cheremkhovo,53°08'N,103°01'E
+Cherepanovo,54°15'N,83°30'E
+Cherepovets,59°05'N,37°55'E
+Cherkessk,44°15'N,42°05'E
+Cherlak,54°15'N,74°55'E
+Chernaya,70°30'N,89°10'E
+Chernogorsk,53°49'N,91°18'E
+Chernyakhovsk,54°36'N,21°48'E
+Chernysheyskiy,63°00'N,112°30'E
+Cherskiy,68°45'N,161°18'E
+Cherskogo Khrebet,65°00'N,143°00'E
+Cheshskaya Guba,67°20'N,47°00'E
+Chistopol,55°25'N,50°38'E
+Chita,52°00'N,113°35'E
+Chkalov/Orenburg,51°45'N,55°06'E
+Chokurdakh,70°38'N,147°55'E
+Chudskoye, Ozero,58°13'N,27°30'E
+Chukchi Sea,68°00'N,175°00'W
+Chukotskoye Nagorye,68°00'N,175°00'E
+Chulym,57°43'N,83°51'E
+Chumikan,54°40'N,135°10'E
+Chuna,57°47'N,94°37'E
+Chusovoy,58°22'N,57°50'E
+Chuvash Republic/Chuvashia,55°30'N,47°00'E
+Chuvashia,55°30'N,47°00'E
+Dagestan,42°30'N,47°00'E
+Daghestan Republic/Dagestan,42°30'N,47°00'E
+Dalnegorsk,44°32'N,135°33'E
+Dalnerechensk,45°50'N,133°40'E
+Danilov,58°16'N,40°13'E
+Delonga, Ostrova,76°40'N,149°20'E
+Deputatskiy,69°18'N,139°54'E
+Debent,42°05'N,48°15'E
+Dezhneva, Mys,66°05'N,169°40'W
+Dickson/Dikson,73°40'N,80°05'E
+Dikson,73°40'N,80°05'E
+Dimitrovgrad,54°14'N,49°39'E
+Divnoye,45°55'N,43°21'E
+Dmitriya Lapteva, Polive,73°00'N,140°00'E
+Dnestrovski/Belgorod,50°35'N,36°35'E
+Dno,57°50'N,29°58'E
+Dombarovskiy,50°46'N,59°32'E
+Don,47°04'N,39°18'E
+Donets,47°33'N,40°55'E
+Druzhina,68°14'N,145°18'E
+Dubovka,49°05'N,44°50'E
+Dudinka,69°30'N,86°13'E
+Dunay,42°52'N,132°22'E
+Dvina, Severnaya,64°32'N,40°30'E
+Dvinskaya Guba,65°00'N,39°00'E
+Dzerzhinsk,56°14'N,43°30'E
+Dzhalinda,53°26'N,124°00'E
+Dzhugdzur, Khrebet,57°30'N,138°00'E
+East Siberian Sea,73°00'N,160°00'E
+Egvekinot,37°53'N,30°50'E
+Elektrostal,55°41'N,38°32'E
+Elista,46°16'N,44°14'E
+Enels,51°28'N,46°06'E
+Ergeni Vozvyshennost,47°00'N,44°00'E
+Ertis/Irtysh,61°04'N,68°52'E
+Erzin,50°15'N,95°10'E
+Esil/Ishim,57°45'N,71°10'E
+Evensk,62°12'N,159°30'E
+Fadeyevskiy, Ostrov,76°00'N,144°00'E
+Frantsa losifa, Zemlya,82°00'N,55°00'E
+Franz Josef Land/Frantsa losifa, Zamlya,82°00'N,55°00'E
+Galich,58°22'N,42°24'E
+Gay,51°27'N,58°27'E
+Gdov,58°48'N,27°55'E
+Genriyetty, Ostrov,77°06'N,156°30'E
+Georga, Zemlya,80°30'N,49°00'E
+Georgiu-Dezh/Liski,51°03'N,39°30'E
+Georgiyevsk,44°12'N,43°28'E
+Gizhiga,62°03'N,160°30'E
+Gizhiginskaya Guba,61°00'N,158°00'E
+Glazov,58°09'N,72°37'W
+Golchikha,71°45'N,83°30'E
+Gorki/Nizhniy Novgorod,56°20'N,44°00'E
+Gorkiy/Nizhniy Novgorod,56°20'N,44°00'E
+Gorkovskoye Vdkhr.,57°02'N,43°04'E
+Gorno-Altay,51°00'N,86°00'E
+Gorno-Altaysk,51°50'N,86°05'E
+Gornyatski,57°32'N,64°03'E
+Gornyy,44°57'N,133°59'E
+Graham Bell, Ostrove/Greem-Bell, Ostrov,81°00'N,62°00'E
+Greem-Bell, Ostrov,81°00'N,62°00'E
+Gremikha,67°59'N,39°47'E
+Groznyy,43°20'N,45°45'E
+Gryazi,52°30'N,39°58'E
+Gryazovets,58°50'N,40°10'E
+Gubkin,51°17'N,37°32'E
+Gusev,54°35'N,22°10'E
+Gusinoozersk,51°16'N,106°27'E
+Gvardeysk,54°39'N,21°05'E
+Gydanskiy Poluostrov,70°00'N,78°00'E
+Henrietta, Ostrov/Genriyetty, Ostrov,77°06'N,156°30'E
+Igarka,67°30'N,86°33'E
+Ilanskiy,56°14'N,96°03'E
+Ilek,51°32'N,53°21'E
+Ilek,51°30'N,53°22'E
+Ilmen, Ozero,58°15'N,31°10'E
+Imandra, Ozero,67°30'N,33°00'E
+Indiga,67°38'N,49°09'E
+Indigirka,70°48'N,148°54'E
+Ingushetia,43°20'N,44°50'E
+Inta,66°05'N,60°08'E
+Inya,50°28'N,86°37'E
+Inza,53°55'N,46°25'E
+Irkutsk,52°18'N,104°20'E
+Irtysh,61°04'N,68°52'E
+Ishim,56°10'N,69°30'E
+Ishim,57°45'N,71°10'E
+Isil Kul,54°55'N,71°16'E
+Iturup, Ostrov,45°00'N,148°00'E
+Ivanovo,57°05'N,41°00'E
+Ivdel,60°42'N,60°24'E
+Izhevsk,56°51'N,53°14'E
+Izhma,65°19'N,52°54'E
+Jeanette, Ostrov/Zhannetty, Ostrov,76°43'N,158°00'E
+Kabardino-Balkar Republic/Kabardino-Balkaria,43°30'N,43°30'E
+Kabardino-Balkaria,43°30'N,43°30'E
+Kalach,50°22'N,41°00'E
+Kalakan,55°15'N,116°45'E
+Kalinin/Tver,56°55'N,35°55'E
+Kaliningrad,54°42'N,20°32'E
+Kalmyk Republic/Kalmykia,46°05'N,46°01'E
+Kalmykia,46°05'N,46°01'E
+Kaluga,54°35'N,36°10'E
+Kalya,60°15'N,59°59'E
+Kama,55°45'N,52°00'E
+Kambarka,56°15'N,54°11'E
+Kamchatka, Polustrov,57°00'N,160°00'E
+Kamchatka Pen./Kamchatka, Polustrov,57°00'N,160°00'E
+Kamen,53°50'N,81°30'E
+Kamen-Rybolov,44°46'N,132°02'E
+Kamenka,65°58'N,44°00'E
+Kamensk Uralskiye,56°25'N,62°02'E
+Kamenskoye,62°45'N,165°30'E
+Kamskoye Vdkhr.,58°41'N,56°07'E
+Kamyshin,50°10'N,45°24'E
+Kanash,55°30'N,47°32'E
+Kandalaksha,67°09'N,32°30'E
+Kandalakshskiy Zaliv,66°00'N,35°00'E
+Kanin, Poluostrov,68°00'N,45°00'E
+Kanin Nos, Mys,68°39'N,43°32'E
+Kanin Pen./Kanin, Poluostrov,68°00'N,45°00'E
+Kansk,56°20'N,95°37'E
+Kera,69°10'N,65°00'E
+Kara Sea,75°00'N,70°00'E
+Karachey-Cherkessia,43°40'N,41°30'E
+Karaginskiy, Ostrov,58°45'N,164°00'E
+Karalon,57°05'N,115°50'E
+Karasino,66°50'N,86°50'E
+Karasuk,53°44'N,78°02'E
+Karaul,70°06'N,82°15'E
+Karelia,65°30'N,32°30'E
+Karelian Republic/Karelia,65°30'N,32°30'E
+Kargasok,59°03'N,80°53'E
+Kargat,55°10'N,80°15'E
+Kargopol,61°30'N,38°58'E
+Karpinsk,59°45'N,60°01'E
+Karpogory,64°00'N,44°27'E
+Kartaly,53°03'N,60°40'E
+Kasimov,54°55'N,41°20'E
+Kavacha,60°16'N,169°51'E
+Kavalerovo,44°15'N,135°04'E
+Kazachye,70°52'N,135°58'E
+Kazan,55°50'N,49°10'E
+Kazym,63°54'N,65°50'E
+Kem,65°00'N,34°38'E
+Kem,64°57'N,34°41'E
+Kemerovo,55°20'N,86°05'E
+Kestenga,65°50'N,31°45'E
+Ket ,58°55'N,81°32'E
+Kezhma,58°59'N,101°09'E
+Khabarovsk,48°30'N,135°05'E
+Khakassia,53°00'N,90°00'E
+Khalmer-sede/Tazovskiy,67°30'N,78°44'E
+Khalmer Yu,67°58'N,65°01'E
+Khalturin,58°40'N,48°50'E
+Khandyga,62°42'N,135°35'E
+Khanty-Mansiysk,61°00'N,69°00'E
+Khapcheranga,49°42'N,112°24'E
+Kharovsk,59°56'N,40°13'E
+Khasan,42°25'N,130°40'E
+Khatanga,72°00'N,102°20'E
+Khatanga,72°55'N,106°00'E
+Khatyrka,62°03'N,175°15'E
+Kheta,71°54'N,102°06'E
+Khilok,51°30'N,110°45'E
+Kholm,57°10'N,31°15'E
+Kholmsk,47°40'N,142°05'E
+Khonuu,66°30'N,143°12'E
+Khoper,49°30'N,42°20'E
+Kichmengskiy Gorodok,59°59'N,45°48'E
+Kimry,56°55'N,37°15'E
+Kineshma,57°30'N,42°05'E
+Kirensk,57°50'N,107°55'E
+Kirillov,59°49'N,38°24'E
+Kirov,58°35'N,49°40'E
+Kirovsk,67°32'N,33°41'E
+Kirovskiy, Kamchatka,54°27'N,155°42'E
+Kirovskiy, Primorsk,45°07'N,133°30'E
+Kirsanov,52°35'N,42°40'E
+Kislovodsk,43°50'N,42°45'E
+Kizel,59°03'N,57°40'E
+Kizlyar,43°51'N,46°40'E
+Kletskiy,49°16'N,43°11'E
+Klyuchevskaya, Gora,55°50'N,160°30'E
+Kola,68°45'N,33°08'E
+Kola Pen./Kolskiy Poluostrov,67°30'N,38°00'E
+Kolchugino/Leninsk-Kuznetskiy,54°44'N,86°10'E
+Kolguyev, Ostrov,69°20'N,48°30'E
+Kolomna,55°08'N,38°45'E
+Kolpashevo,58°20'N,83°05'E
+Kolpino,59°44'N,30°39'E
+Kolskiy Poluostrov,67°30'N,38°00'E
+Kolskiy Zalic,69°23'N,34°00'E
+Kolyma,69°30'N,161°00'E
+Kolymskoye Nagorye,63°00'N,157°00'E
+Komandorskiye Is.= Komandorskiye Ostrova,55°00'N,167°00'E
+Komandorskiye Ostrova,55°00'N,167°00'E
+Komi,64°00'N,55°00'E
+Komsomolets, Ostrov,80°30'N,95°00'E
+Komsomolsk,50°30'N,137°00'E
+Kondopaga,62°12'N,34°17'E
+Kondratyevo,57°22'N,98°15'E
+Konevo,62°08'N,39°20'E
+Konigsberg/Kaliningrad,54°42'N,20°32'E
+Konosha,61°00'N,40°05'E
+Korsakov,46°36'N,142°42'E
+Korshunovo,58°37'N,110°10'E
+Koryakoye Nagorye,61°00'N,171°00'E
+Koslan,63°34'N,49°14'E
+Kostroma,57°50'N,40°58'E
+Kotelnich,58°22'N,48°24'E
+Kotelnikovo,47°38'N,43°08'E
+Kotelnyy, Ostrov,75°10'N,139°00'E
+Kotlas,61°17'N,46°43'E
+Kotuy,71°54'N,102°06'E
+Kovdor,67°34'N,30°24'E
+Kovrov,56°25'N,41°25'E
+Kozhva,65°10'N,57°00'E
+Krasavino,60°58'N,46°29'E
+Kraskino,42°44'N,130°48'E
+Krasnoarmeysk,51°00'N,45°42'E
+Krasnodar,45°05'N,39°00'E
+Krasnokamsk,58°04'N,55°48'E
+Krasnorechenskiy,44°41'N,135°14'E
+Krasnoselkup,65°20'N,82°10'E
+Krasnoturinsk,59°46'N,60°12'E
+Krasnoufimsk,56°36'N,57°58'E
+Krasnouralsk,58°21'N,60°03'E
+Krasnovishersk,60°23'N,57°03'E
+Krasnoyarsk,56°08'N,93°00'E
+Krasnyy Kut,50°50'N,47°00'E
+Krasnyy Yar,46°43'N,48°23'E
+Kronshtadt,59°57'N,29°51'E
+Kropotkin,45°28'N,40°28'E
+Kuban,45°20'N,37°30'E
+Kudymkar,59°001'N,54°39'E
+Kulunda,52°35'N,78°57'E
+Kuma,44°55'N,47°00'E
+Kumeratu,52°45'N,55°57'E
+Kunashir, Ostrov,44°00'N,146°00'E
+Kungur,57°25'N,56°57'E
+Kurgan,55°26'N,65°18'E
+Kuril Is./Kurilskiye Ostrova,45°00'N,150°00'E
+Kurilsk,45°14'N,147°53'E
+Kurilskiye Ostrova,45°00'N,150°00'E
+Kurshskiy Zaliv ,55°09'N,21°06'E
+Kursk,51°42'N,36°11'E
+Kurya,61°42'N,57°09'E
+Kushva,58°18'N,59°45'E
+Kuybyshev/Samara,53°08'N,50°06'E
+Kuybyshev,55°27'N,78°19'E
+Kuybyshevskoye Vdkhr.,55°02'N,49°30'E
+Kuyto, Ozero,65°06'N,31°20'E
+Kuyumba,60°58'N,96°59'E
+Kuznetsk,53°12'N,46°40'E
+Kuzomen,66°22'N,36°50'E
+Kyakhta,50°30'N,106°25'E
+Kystatyam,67°20'N,123°10'E
+Kyusyur,70°19'N,127°30'E
+Kyzyl,51°50'N,94°30'E
+Labinsk,44°40'N,40°48'E
+Labytnangi,66°39'N,66°21'E
+Ladoga, L/Ladozhskoye Ozero,61°15'N,30°30'E
+Ladozhskoye Ozero,61°15'N,30°30'E
+Laptev Sea,76°00'N,125°00'E
+Lazo,43°25'N,133°55'E
+Lena,72°52'N,126°40'E
+Leningrad/Sankt-Peterburg,59°55'N,30°20'E
+Leninsk,48°40'N,45°15'E
+Leninsk-Kuznetskly,54°44'N,86°10'E
+Lensk,60°48'N,114°55'E
+Leshukonskoye,64°54'N,45°46'E
+Lesopilnoye,46°44'N,134°20'E
+Lesozavodsk,45°30'N,133°29'E
+Lifudzin,44°21'N,134°58'E
+Lipetsk,52°37'N,39°35'E
+Lipovcy Manzovka,44°12'N,132°26'E
+Liski,51°03'N,39°30'E
+Livny ,52°30'N,37°30'E
+Lodeinoye Pole ,60°44'N,33°33'E
+Long Str=Longa, Proliv,70°0'N,175°0'E
+Longa, Proliv,70°0'N,175°0'E
+Lopatina, Gora,50°47'N,143°10'E
+Lower Tumnguska=Tunguska Nizhnyaya,65°48'N,88°04'E
+Luga ,58°40'N,29°55'E
+Luza,60°39'N,47°10'E
+Lyakhovskiye, Ostrova,73°40'N,141°0'E
+Lysva,58°07'N,57°49'E
+Lyubertsy,55°39'N,37°50'E
+Magadan ,59°38'N,150°50'E
+Magistrainyy,56°10'N,107°36'E
+Magnitogorsk,53°27'N,59°04'E
+Makarovo ,57°40'N,107°45'E
+Makhachkala,43°0'N,43°0'E
+Malyy Lyakhovskiy Ostrov,74°07'N,140°36'E
+Mama,58°18'N,112°54'E
+Manchegorsk,67°54'N,32°58'E
+Manych Gudilo, Ozero,46°24'N,42°38'E
+Margaritovo,43°25'N,134°45'E
+Mari El,56°30'N,48°0'E
+Mari Republic/Mari El,56°30'N,48°0'E
+Mariinsk,56°10'N,87°20'E
+Markovo,51°45'N,46°50'E
+Marks ,51°45'N,46°50'E
+Matochkin Shar,73°10'N,56°40'E
+Maya ,60°28'N,134°28'E
+Maykop ,44°35'N,40°10'E
+Mayya,61°44'N,130°18'E
+Medveditsa,49°35'N,42°41'E
+Medvezhi Ostrava,71°0'N,161°0'E
+Medvezhyegorsk ,63°0'N,34°25'E
+Menzelinsk ,55°47'N,53°11'E
+Mezen,65°50'N,44°20'E
+Mezen,65°44'N,44°22'E
+Mezhdurechenskiy ,59°36'N,65°56'E
+Miass,54°59'N,60°06'E
+Michurinsk ,52°58'N,40°27'E
+Mikhaylovka,50°03'N,43°05'E
+MiKun,62°20'N,50°0'E
+Minsuinsk,53°43'N,91°20'E
+Mirnyy,62°33'N,113°53'E
+Mogocha,53°40'N,119°50'E
+Molchanovo,57°40'N,83°50'E
+Molotov/Perm ,58°0'N,56°10'E
+Monchegorsk ,67°54'N,32°58'E
+Mordovian Republic/Mordvinia ,54°20'N,44°30'E
+Mordvinia,54°20'N,44°30'E
+Morshansk,53°28'N,41°50'E
+Morzhovets, Ostrov,66°44'N,42°35'E
+Mosco/Moskva,55°45'N,37°35'E
+Moskva,55°45'N,37°35'E
+Moyyero,68°44'N,10°.42'E
+Mozdok,43°45'N,44°48'E
+Mukhtuya/Lensk ,60°48'N,114°55'E
+Munku-sardyk,51°45'N,100°20'E
+Murashi,59°30'N,49°0'E
+Murmansk ,68°57'N,33°10'E
+Murom ,55°35'N,42°03'E
+Mutoray ,60°56'N,101°0'E
+Muzhi,65°25'N,64°40'E
+Mytishchi,55°50'N,37°50'E
+Naberezhnyye Chelny,55°42'N,52°19'E
+Nadvoitsy ,63°52'N,34°14'E
+Nadym,65°35'N,72°42'E
+Nadym,66°12'N,72°0'E
+Nagornyy ,55°58'N,124°57'E
+nakhodka,42°53'N,132°54'E
+Nalchik,43°30'N,43°33'E
+Namtsy,62°43'N,129°37'E
+Narodnaya,65°05'N,59°58'E
+Naryan-Mar, ,67°42'N,53°12'E
+Narym ,59°0'N,81°30'E
+Nayakhan ,61°56'N,159°0'E
+Neftekumsk,44°46'N,44°50'E
+Nelkan,57°40'N,136°04'E
+Neman ,55°02'N,22°02'E
+Nerchinsk,52°0'N,116°39'E
+Neryungri,57°15'N,04°32'W
+Neva,59°50'N,30°30'E
+Nevel,56°0'N,29°55'E
+Nevinnomyssk,44°40'N,42°0'E
+Nevyansk,57°30'N,60°13'E
+New Siberian I./Novaya Sibir, Ostrov ,75°10'N,150°0'E
+New Siberian Is/Novosibirskiye,75°0'N,142°0'E
+Neya,58°221'N,43°49'E
+Nikolayevsk,50°0'N,45°35'E
+Nilolayevsk-na-Amur,53°08'N,140°44'E
+Nikolskoye,55°12'N,166°0'E
+Nizhne Kolymsk,68°34'N,160°55'E
+Nizhnekamsk,55°38'N,51°49'E
+Nizhneudinsk,54°54'N,99°03'E
+Nizhnevartovsk,60°56'N,76°38'E
+Nizhniy Novgorod,56°20'N,44°0'E
+Nizhniy Tagil,57°55'N,59°57'E
+Noginsk ,64°30'N,90°50'E
+Nordvik,74°02'N,111°32'E
+Norilsk,69°20'N,88°06'E
+Norsk,52°30'N,130°05'E
+North Ossetia,43°30'N,44°30'E
+Novaya Ladoga,60°07'N,32°16'E
+Novaya Lyalya ,59°04'N,60°45'E
+Novaya Sibir Ostrov,75°10'N,150°0'E
+Novaya Zemlya ,75°0'N,56°0'E
+Novgorod,58°30'N,31°25'E
+Novoataysk,53°30'N,84°0'E
+Novocherkassk ,47°27'N,40°15'E
+Novakachalinsk,45°05'S,132°0'E
+Novokuybyshevsk,53°07'N,49°58'E
+Novokuznetsk,53°45'N,87°10'E
+Novomoskovsk ,54°05'N,38°15'E
+Novorossiysk ,44°43'N,37°46'E
+Novorybnoye,72°50'N,405°50'E
+Novoshakhtinsk,47°46'N,39°58'E
+Novosibirsk,55°0'N,83°05'E
+Novosibirskiye Ostrova,75°0'N,142°0'E
+Novotroitsk,51°10'N,58°15'E
+Novouzensk,50°32'N,48°17'E
+Novvy Urengoy ,65°48'N,76°52'E
+Novyy Bor,66°43'N,52°19'E
+Novyy Port,67°40'N,72°30'E
+Noyabr'sk,64°34'N,76°21'E
+Nyagan ,62°30'N,65°38'E
+Nyandoma,61°40'N,40°12'E
+Nyazepetrovsk ,56°03'N,59°36'E
+Nyda,66°40'N,72°58'E
+Nyurba ,63°17'N,118°28'E
+Ob ,66°45'N,69°30'E
+Obluchye,49°01'N,131°04'E
+Oboyan,51°15'N,36°21'E
+Obozerskaya/Obozerskiy,63°34'N,40°21'E
+Obshchi Syrt,52°0'N,53°0'E
+Obskaya Guba,69°0'N,73°0'E
+Odintsovo,55°39'N,37°15'E
+Oka,56°20'N,43°59'E
+Okha,53°40'N,143°0'E
+Okhotsk,59°20'N,143°10'E
+Okhotskiy Perevoz,61°52'N,135°35'E
+Oksovskiy,62°33'N,39°57'E
+Oktyabrskiy,54°28'N,53°28'E
+Iltyabroskoy Revolyutsii, Ostrov,79°30'N,97°0'E
+Olekma,60°221'N,120°30'E
+Olekminsk,60°25'N,120°30'E
+Olenegorsk ,68°09'N,33°18'E
+Olenek ,68°28'N,112°18'E
+Olenek ,73°0'N,120°10'E
+Olga,43°50'N,135°14'E
+Olonets,61°0'N,32°54'E
+Olovyannaya,50°58'N,115°35'E
+Oloy,66°29'N,159°29'E
+Om ,54°59'N,73°22'E
+Omolon,68°42'N,158°36'E
+Omsk,55°0'N,73°12'E
+Omsukchan,62°32'N,155°48'E
+Onega ,63°0'N,38°10'E
+Onega ,63°28'N,38°02'E
+Onega G of./Onezhskaya Guba ,64°24'N,36°38'E
+Onega L./Onezhskoye, Ozero,61°44'N,35°22'E
+Onekotan Ostrov,49°25'N,154°45'E
+Onezhskaya Guba,64°24'N,36°38'E
+Ordzhonikidze/Vladikavkaz,43°0'N,44°35'E
+Orekhovo-Zuyevo,55°50'N,38°55'E
+Orel ,52°57'N,36°03'E
+Orenburg ,51°45'N,55°06'E
+Orotukan ,62°16'N,151°42'E
+Orsk,51°12'N,58°34'E
+Osa,57°17'N,55°26'E
+Ossora,59°20'N,163°13'E
+Oymyakon,63°25'N,142°44'E
+Palana ,59°10'N,159°59'E
+Palatka,60°06'N,150°54'E
+Paramushir Ostrov,50°24'N,156°0'E
+Paren,62°30'N,163°15'E
+Pavlovo,55°58'N,43°05'E
+Pavlovsk,50°26'N,40°05'E
+Pavlovskaya,46°17'N,39°47'E
+Pechenga ,69°29'N,31°04'E
+Pechora ,65°10'N,57°11'E
+Pechorskaya Guba,68°40'N,54°0'E
+Pecory ,57°48'N,27°40'E
+Peipus L./Chudskoye, Ozero ,58°13'N,27°30'E
+Penza,53°15'N,45°05'E
+Penzhono,63°30'N,167°55'E
+Penzhinskaya Guba,61°30'N,163°0'E
+Perm,58°0'N,56°10'E
+Pervouralsk,56°59'N,59°59'E
+Petra Ostrova,76°15'N,118°30'E
+Petra Velikogo, Zaliv,42°40'N,132°0'E
+Petrograd/Sankt-Peterburg,59°55'N,30°20'E
+Petropavlovsk -Kamchatskiy,53°03'N,158°43'E
+Petrovsk,52°22'N,45°19'E
+Petrovsk-Zabaykalskiy,51°20'N,108°55'E
+Petrozavodsk,61°41'N,34°20'E
+Pevek ,69°41'N,171°19'E
+Pinega,64°30'N,44°19'E
+Pinyug,60°05'N,48°0'E
+Pioner Ostrov,79°50'N,92°0'E
+Plastun,44°45'N,136°19'E
+Plesetsk ,62°43'N,40°20'E
+Pobeda,65°12'N,146°12'E
+Podolsk,55°25'N,37°30'E
+Podporozhye ,60°55'N,34°02'E
+Pogranitsnyi,44°25'N,131°24'E
+Pokrovsk/Engels ,51°28'N,46°06'E
+Pokrovsk,61°29'N,129°0'E
+Polessk,54°50'N,21°08'E
+Polevskoy,56°26'N,60°11'E
+Polnovat,63°50'N,65°54'E
+Polunochnoye,60°52'N,60°25'E
+Polyarny ,69°08'N,33°20'E
+Ponoy,67°0'N,41°13'E
+Ponoy,66°59'N,41°17'E
+Poronaysk ,19°13'N,143°0'E
+Port Vladimir,69°25'N,33°06'E
+Povenets,62°50'N,34°50'E
+Poyarkovo,49°36'N,128°41'E
+Preobrazheniye,42°54'N,133°54'E
+Priozersk,61°02'N,30°70'E
+Privolzhskaya Vozvyshennost,51°0'N,46°0'E
+Prokopyevsk ,54°0'N,86°45'E
+Provideniya,64°23'N,173°18'W
+Pskov,57°50'N,28°25'E
+Pudozh,61°48'N,36°32'E
+Pugachev,52°0'N,48°49'E
+Pur,67°31'N,77°55'E
+Pushkino,51°16'N,47°0'E
+Putorana Gory,69°0'N,95°0'E
+Pya-Ozero,66°05'N,30°58'E
+Pyasina,73°30'N,87°0'E
+Pyatigorsk,44°02'N,43°06'E
+Rakitnoye,45°36'N,134°17'E
+Raychikhinsk,49°46'N,129°25'E
+Razdolnoye,43°30'N,131°52'E
+Revda ,56°48'N,59°57'E
+Roslavi,53°57'N,32°55'E
+Rossosh,50°15'N,39°28'E
+Rostov, Don ,47°15'N,39°45'E
+Rostov, Yaroslavi,57°14'N,39°25'E
+Rtishchevo,52°18'N,43°46'E
+rubtsovsk,51°30'N,81°10'E
+Rudolfa, Ostrov,81°45'N,58°30'E
+Russkoye Ustie,71°0'N,149°0'E
+Ryazan ,54°40'N,39°40'E
+Rybachiy Poluostrov,69°43'N,32°0'E
+Rzhev,56°20'N,34°20'E
+Sakha,66°0'N,130°0'E
+Sakhalin,51°0'N,143°0'E
+Salavat,53°21'N,55°55'E
+Salekhard,66°30'N,66°35'E
+Salsk,46°28'N,41°30'E
+Samagaltay,50°36'N,95°3'E
+Samara,53°8'N,50°6'E
+Sangar,64°2'N,127°31'E
+Saransk ,54°10'N,45°10'E
+Saratov,51°30'N,46°2'E
+Saskylakh ,71°55'N,114°1'E
+Sasovo,54°25'N,41°55'E
+Sayan , Vostochnyy,54°0'N,96°0'E
+Gayan, Zapadnyy,52°30'N,94°0'E
+Sedova Pik,73°29'N,54°58'E
+Seg-ozero,63°20'N,33°46'E
+Segezha ,63°44'N,34°19'E
+Selemdzha,51°42'N,128°53'E
+Seltso,53°22'N,34°4'E
+Serdobsk,52°28'N,44°10'E
+Sergino ,52°28'N,44°10'E
+Sergiyev Posad,56°20'N,38°10'E
+Serov ,59°29'N,60°35'E
+Serpukhov,54°55'N,37°28'E
+Severnaya Zemlya ,79°0'N,100°0'E
+Severo-Kurilsk,60°0'N,50°0'E
+Severo-Yeniseyskiy,60°22'N,93°1'E
+Sikhote Alin, Khrebet,45°0'N,136°0'E
+Sivmasinsky,66°40'N,62°35'E
+Slavgorod,53°1'N,78°37'E
+Slavyanka ,42°53'N,131°21'E
+Slobodskoy,58°40'N,50°6'E
+Smidovich,48°36'N,133°49'E
+Solensk ,54°45'N,32°5'E
+Sochi ,43°35'N,39°40'E
+Sol Illetsk,51°10'N,55°0'E
+Sorochinsk,52°26'N,53°10'E
+Sortavala ,61°42'N,30°41'E
+Sosnogorsk,63°37'N,53°51'E
+Sovetsk, Kirov,57°38'N,48°53'E
+Spassk Dalniy,44°40'N,132°48'E
+Sredinny Ra/Sredinnyy Khrebet,57°0'N,160°0'E
+Susuman,62°47'N,148°10'E
+Suzdal,56°29'N,40°26'E
+Svir,60°30'N,32°48'E
+Sym,60°20'N,88°18'E
+Taganrog,47°12'N,38°50'E
+Tambov,52°45'N,41°28'E
+Tannu-Ola,51°0'N,94°0'E
+Tarko Sale,64°55'N,77°50'E
+Tashtagol ,52°47'N,87°53'E
+Taskan,62°59'N,150°20'E
+Tatar Republic/Tatarstan,55°30'N,51°30'E
+Tavda,58°7'N,65°8'E
+Taylakova,59°13'N,74°0'E
+Taymyr Oz.,74°20'N,102°0'E
+Tayshet,55°58'N,98°1'E
+Taz,67°32'N,78°40'E
+Tazovskiy,67°30'N,78°44'E
+Temirtau,53°10'N,87°30'E
+Terek,44°0'N,47°30'E
+Terney,45°3'N,136°37'E
+Tigil,57°49'N,158°40'E
+Tikhoretsk,45°56'N,40°5'E
+Tikhvin,59°35'N,33°30'E
+Tiksi,71°40'N,128°45'E
+Tit-Ary,71°55'N,127°2'E
+Tobol,58°10'N,68°12'E
+Tobolsk,58°15'N,68°10'E
+Tommot,59°4'N,126°20'E
+Tomsk,56°30'N,85°5'E
+Toora -Khem,52°28'N,96°17'E
+Top-ozero,52°28'N,96°17'E
+Toropets,56°30'N,31°40'E
+Totma,60°0'N,42°40'E
+Troitsk,54°10'N,61°35'E
+Troitsko Pechorsk,62°40'N,56°10'E
+Trudovoye,43°17'N,132°5'E
+Tsimlyanskoye Vdkhr,48°0'N,43°0'E
+Tsna,54°55'N,41°58'E
+Tuapse,44°5'N,39°10'E
+Tugur,53°44'N,136°45'E
+Tula ,54°13'N,37°38'E
+Tulun,54°32'N,100°35'E
+Tunguska Podkamennaya,61°50'N,90°13'E
+Tura,64°20'N,100°17'E
+Turukhansk,65°21'N,88°5'E
+Tuva,51°30'N,95°0'E
+Tver,56°55'N,35°55'E
+Tynda,55°10'N,124°43'E
+Tyulgan,52°22'N,56°12'E
+Tyumen,57°11'N,65°29'E
+Uchur,58°48'N,130°35'E
+Uda,54°42'N,135°14'E
+Udmurtia,57°30'N,52°30'E
+Uedineniya Os.,78°0'N,85°0'E
+Uelen,66°10'N,170°0'W
+Ufa,54°45'N,55°55'E
+Uglegorsk,49°5'N,142°2'E
+Uka,57°50'N,162°0'E
+Ukhta,63°34'N,53°41'E
+Ulan Ude ,51°45'N,107°40'E
+Ulya,59°10'N,142°0'E
+Umba,66°42'N,34°11'E
+Uva,56°59'N,52°13'E
+Uvat,59°5'N,68°50'E
+Vach/Vakh ,60°45'N,76°45'E
+Vaigach ,70°10'N,59°0'E
+Vakh ,60°45'N,76°45'E
+Valentin,43°8'N,137°17'E
+Vanavara,60°22'N,102°16'E
+Vanino,48°50'N,140°5'E
+Vaygach Ostrov,70°0'N,60°0'E
+Velikaya,57°48'N,28°10'E
+Velikaya Kema,45°30'N,137°12'E
+Veliki Ustyug,60°47'N,46°20'E
+Velikiye Luki,56°25'N,30°32'E
+Velsk,61°10'N,42°5'E
+Verkhnevilyuysk,48°14'N,46°44'E
+Verkhoyansk ,67°35'N,133°25'E
+Veselovskoye Vdkhr,46°58'N,41°25'E
+Vetlugu,56°36'N,46°4'E
+Viliga,61°36'N,156°56'E
+Vilkitskogo, Proloiv,78°0'N,103°0'E
+Vilyur,64°24'N,126°26'E
+Vilyuysk,64°24'N,126°26'E
+vilyuysk,63°40'N,121°35'E
+Vitim,59°28'N,112°35'E
+Vitim,59°26'N,112°34'E
+Vladimir,43°0'N,44°35'E
+Vladimir ,56°15'N,40°30'E
+Vladivostok,43°10'N,131°53'E
+Volga,46°0'N,48°30'E
+Vozvyshennost,51°0'N,46°0'E
+Volgodonsk,47°33'N,42°5'E
+Volgograd,48°40'N,44°25'E
+Volgogradskoye Vdkhr,50°0'N,45°20'E
+Volkhov,60°8'N,32°20'E
+Volochanka,71°0'N,94°28'E
+Vologda,59°10'N,39°45'E
+Volsk,52°5'N,47°22'E
+Vorkuta,67°48'N,64°20'E
+Voronezh,51°40'N,39°10'E
+Votkinsk,57°0'N,53°55'W
+Votkinskoye Vdkhr,57°22'N,55°12'E
+Vozhe Ozero,60°45'N,39°0'E
+Voznesenye,61°0'N,35°28'E
+Vrangelya , Ostrov ,71°0'N,180°0'E
+Vuatla/Kirov,58°35'N,49°40'E
+Vyatka,55°37'N,51°28'E
+Vyatskiye Polyany,58°35'N,49°40'E
+Vyazemskiy,47°32'N,134°45'E
+Vyazma,55°10'N,34°15'E
+Vyborg,60°43'N,28°47'E
+Vychegda,61°18'N,46°36'E
+Vyg-ozero,63°47'N,34°29'E
+Vyshniy volochek,57°30'N,34°30'E
+Vytegra,61°0'N,36°27'E
+West Siberian Plain,62°0'N,75°0'E
+Yablonovyy Khrebet ,53°0'N,114°0'E
+Yagodnoye ,62°33'N,149°40'E
+Yakutsk ,62°5'N,129°50'E
+Yamal Pen/Yamal Poluostrov ,71°0'N,70°0'E
+Yana ,71°30'N,136°0'E
+Yanaul ,56°25'N,55°0'E
+Yaransk ,62°11'N,49°15'E
+Yaroslavi ,57°35'N,39°55'E
+Yartsevo ,60°20'N,90°0'E
+Yekaterinburg ,56°50'N,60°30'E
+Yeniseysk ,58°27'N,92°13'E
+Yenyuka ,57°57'N,121°15'E
+Yerbogachen ,61°16'N,108°0'E
+Yeropol ,65°15'N,68°40'E
+Yershov ,51°23'N,48°27'E
+Yessey ,68°29'N,102°10'E
+Yeysk ,46°40'N,38°12'E
+Yoshkar Ola ,56°38'N,47°55'E
+Yukta ,63°26'N,105°42'E
+Yurga ,55°42'N,84°51'E
+Zabaykalsk ,49°40'N,117°25'E
+Zapolyarnyy ,69°26'N,30°51'E
+Zeya ,53°48'N,127°14'E
+Zhilinda ,70°0'N,114°20'E
+Zima ,54°0'N,102°5'E
+Zlatoust ,55°10'N,59°40'E
