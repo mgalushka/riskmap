@@ -20,9 +20,26 @@ Sort	0
 UserCourtCode	
 // Вирок only
 VRType[]	1
-
+=========
+CaseNumber	
+ChairmenName	
+ImportDateBegin	
+ImportDateEnd	
+Liga	false
+PagingInfo.ItemsPerPage	25
+RegDateBegin	
+RegDateEnd	
+RegNumber	
+SearchExpression	Торгівля людьми
+Sort	0
+UserCourtCode	
+=========
 encoded:
 SearchExpression=%D1%81%D1%82.+149+%D0%9A%D0%9A&UserCourtCode=&ChairmenName=&RegNumber=&RegDateBegin=&RegDateEnd=&VRType%5B%5D=1&CaseNumber=&ImportDateBegin=&ImportDateEnd=&Sort=0&PagingInfo.ItemsPerPage=100&Liga=false
+===========================================================
+http://www.reyestr.court.gov.ua/Liga/SetLiga
+POST
+Liga	false
 ===========================================================
 Next page (use session):
 http://www.reyestr.court.gov.ua/Page/2
