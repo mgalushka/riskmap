@@ -38,7 +38,7 @@ parameters.add(new BasicNameValuePair("RegDateEnd", ""));
 parameters.add(new BasicNameValuePair("SearchExpression", "Торгівля людьми"));
 parameters.add(new BasicNameValuePair("Sort", "0"));
 parameters.add(new BasicNameValuePair("UserCourtCode", ""));
-parameters.add(new BasicNameValuePair("VRType[]", "1"));
+//parameters.add(new BasicNameValuePair("VRType[]", "1"));
 def postEnty = new UrlEncodedFormEntity(parameters, HTTP.UTF_8);
 
 def h = new HttpHelper<String>(httpClient)

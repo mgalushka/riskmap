@@ -1,5 +1,7 @@
 package org.riskmap.data.courts
 
+import com.google.api.client.repackaged.com.google.common.base.Strings
+
 import java.text.SimpleDateFormat
 
 /**
@@ -46,13 +48,18 @@ class CourtRecord {
     def SDF = new SimpleDateFormat("dd-MM-yyyy")
 
     public String toCsv() {
-        return id +
-                "," + url +
-                "," + type +
-                "," + SDF.format(date) +
-                "," + form +
-                "," + reference +
-                "," + court +
-                "," + judge;
+        try {
+            return id +
+                    "," + url +
+                    "," + type +
+                    "," + ((date != null) ? SDF.format(date) : "") +
+                    "," + form +
+                    "," + reference +
+                    "," + court +
+                    "," + judge;
+        } catch (e) {
+            println "Cannot format ${this}";
+            return null
+        }
     }
 }

@@ -8,6 +8,7 @@ import org.htmlparser.tags.LinkTag
 import org.htmlparser.tags.TableRow
 import org.htmlparser.tags.TableTag
 import org.riskmap.http.IOUtils
+import org.testng.util.Strings
 
 import java.text.SimpleDateFormat
 
@@ -60,7 +61,11 @@ files.each { file ->
         r.id = F(((LinkTag) cols[0].getChildren().toNodeArray()[1]).getFirstChild().getText())
         r.url = F(((LinkTag) cols[0].getChildren().toNodeArray()[1]).getLink())
         r.type = F(cols[1].getFirstChild().getText())
-        r.date = SDF.parse(F(cols[2].getFirstChild().getText()))
+        try {
+            r.date = SDF.parse(F(cols[2].getFirstChild().getText()))
+        } catch (Exception e) {
+            println "Unparseable date: [${F(cols[2].getFirstChild().getText())}]"
+        }
         r.form = F(cols[4].getFirstChild().getText())
         r.reference = F(cols[5].getFirstChild().getText())
         r.court = F(cols[6].getFirstChild().getText())
@@ -78,8 +83,11 @@ OUT.println("id,url,type,date,form,reference,court,judge")
 
 def k=0
 records.each { CourtRecord r ->
-    OUT.println(r.toCsv())
-    if(k++ % 1000 == 0) OUT.flush()
+    def line = r.toCsv()
+    if(!Strings.isNullOrEmpty(line)){
+        OUT.println()
+        if(k++ % 1000 == 0) OUT.flush()
+    }
 }
 OUT.flush()
 OUT.close()
