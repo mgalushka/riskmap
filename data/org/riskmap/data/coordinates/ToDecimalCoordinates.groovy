@@ -10,8 +10,8 @@ import java.text.DecimalFormat
  * @author Maxim Galushka
  */
 
-def IN = new FileReader("D:\\projects\\riskmap\\docs\\russia-cities.txt")
-def OUT = new PrintWriter("D:\\projects\\riskmap\\docs\\russia-coordinates-output.txt")
+def IN = new FileReader("D:\\projects\\riskmap\\docs\\poland-cities.txt")
+def OUT = new PrintWriter("D:\\projects\\riskmap\\docs\\poland-coordinates-output.txt")
 
 
 def line
@@ -20,7 +20,7 @@ while ((line = IN.readLine()) != null) {
 
     try {
         def l = line.split(",")
-        def city = l[0]
+        def city = l[0].replaceAll("'", "")
         def lt = l[1]
         def ln = l[2]
 
@@ -31,8 +31,8 @@ while ((line = IN.readLine()) != null) {
         DecimalFormat numberFormat = new DecimalFormat("#.#####");
         lat = numberFormat.format(lat);
         lon = numberFormat.format(lon);
-        println(("{city:'${city}',lat:${lat},lng:${lon},count:40}"))
-        OUT.println("{city:'${city}',lat:${lat},lng:${lon},count:40},")
+        println(("{city:'${city}',lat:${lat},lng:${lon},count:20}"))
+        OUT.println("{city:'${city}',lat:${lat},lng:${lon},count:20},")
 
         //  Thread.sleep(200)
     }
