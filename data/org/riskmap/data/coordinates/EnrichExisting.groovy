@@ -6,10 +6,13 @@ import org.testng.util.Strings
  * @author Maxim Galushka
  */
 
-def EXISTING = new FileReader("D:\\projects\\riskmap\\docs\\citi-existing.txt")
-def IN = new FileReader("D:\\projects\\riskmap\\docs\\citi-coordinates.txt")
+def ROOT = "D:\\projects\\riskmap\\riskmap\\docs\\"
 
-def OUT = new PrintWriter("D:\\projects\\riskmap\\docs\\citi-coordinates-final.txt")
+def EXISTING = new FileReader("${ROOT}citi-existing.txt")
+def IN = new FileReader("${ROOT}citi-coordinates.txt")
+
+def OUT = new PrintWriter("${ROOT}citi-coordinates-final.txt")
+def OUT2 = new PrintWriter("${ROOT}citi-major-coordinates-final.txt")
 
 def map = [:]
 def line
@@ -30,6 +33,7 @@ while ((line = IN.readLine()) != null) {
             line = line.replaceAll("count:10", "count:${map.get(s)}")
             enriched = true
             OUT.println(line)
+            OUT2.println(line)
         }
     }
     if (!enriched) {
@@ -40,3 +44,6 @@ while ((line = IN.readLine()) != null) {
 
 OUT.flush()
 OUT.close()
+
+OUT2.flush()
+OUT2.close()
